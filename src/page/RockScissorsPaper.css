@@ -1,0 +1,79 @@
+.upper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.game{
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.remaining-life{
+  margin: 2rem 4rem;
+}
+.remaining-life img{
+  margin: 1rem;
+}
+
+.victory{
+  margin: 2rem 4rem;
+}
+
+.rule{
+  color: #CDA969;
+
+}
+
+.lower{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gameName{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.5rem;               
+}
+
+
+
+
+.userWithButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.userSelect button{
+  height: 2rem;
+  width: 6.3rem;
+  margin: 6.5px;
+  border: 1px solid #CDA969;
+  border-radius: 4px;
+  background-color: #444242;
+  color: white;
+}
+
+.userSelect button:hover{
+  background-color: #CDA969;
+  color: black;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+.try-again{
+  background-color: #ED4545;
+  height: 2rem;
+  width: 9.1rem;
+  margin: 2rem;
+  border: 1px;
+  border-radius: 4px;
+
+}

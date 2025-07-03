@@ -1,0 +1,13 @@
+.USER{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
+  background-color: #dbdbdb;
+  padding: 88px;
+  width: 300px;     
+  height: 300px;     
+  box-sizing: border-box;
+  
+}

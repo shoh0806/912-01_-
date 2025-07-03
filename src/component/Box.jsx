@@ -2,6 +2,7 @@ import React from 'react'
 import RockLogo from './image 1.png'
 import ScissorsLogo from './image 2.png'
 import PaperLogo from './image 3.png'
+import './Box.css';
 
 const Box = (props) => {
 

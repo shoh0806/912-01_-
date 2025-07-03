@@ -6,6 +6,7 @@ import PaperLogo from './image 3.png'
 import heartLogo from './mdi_heart.svg'
 import heartOutlineLogo from './mdi_heart-outline.svg'
 import Box from '../component/Box'
+import './RockScissorsPaper.css'
 
 const choice = {
   Rock : {
@@ -22,8 +23,6 @@ const choice = {
 
   }
 }
-
-
 
 const RockScissorsPaper = () => {
 
@@ -51,9 +50,7 @@ const RockScissorsPaper = () => {
     setIsGameOver(false);
   };
 
-  
 
- 
   const play=(userChoice)=>{
     if (isGameOver) return;
 
@@ -135,7 +132,6 @@ const RockScissorsPaper = () => {
         </div>
       </div>
 
-
     <div className='lower'>
         <div className='gameName'>  
           <div> COM</div>    
@@ -143,7 +139,7 @@ const RockScissorsPaper = () => {
         </div>
         
         <div className='GameRender'>
-          {/* {userSelect === null && computerSelect === null ? (<div className="start-message">게임을 시작해주세요.</div>) :(<> */}
+          
           <Box item={computerSelect} result={result === "Win" ? "Lose" : result === "Lose" ? "Win" : "Draw"} />
 
 
@@ -157,8 +153,7 @@ const RockScissorsPaper = () => {
           </div>
          
         </div>
-        
-          
+       
     </div>
     
           <footer>

@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './912communication.png'
 import { useNavigate , useLocation } from "react-router-dom"
+import './Navigation.css';
 
 const Navigation = () => {
     const navigate = useNavigate();
