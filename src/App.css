@@ -1,0 +1,166 @@
+body{
+  background-color: #444242;
+  color: white;
+  
+}
+
+
+.upper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+
+.title{
+  display: flex;
+  margin-top: 89px;
+}
+
+.mini{
+  font-size: 32px;
+
+}
+
+.first-button{
+  margin: 39px;
+}
+
+
+.filled-button {
+  background-color: #CDA969;
+  color: black;
+  border: none;
+  width: 147px;
+  height: 32px;
+  border-radius: 4px;
+  margin: 6px;
+  font-weight: bold;
+}
+
+.transparent-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #CDA969;
+  width: 147px;
+  height: 32px;
+  border-radius: 4px;
+  margin: 6px;
+}
+
+.GameRender{
+  display: flex;
+  justify-content: center;
+}
+
+.game{
+  display: flex;
+}
+.remaining-life{
+  margin: 40px 60px;
+}
+.remaining-life img{
+  margin: 10px;
+}
+.victory{
+  margin: 40px 60px;
+}
+
+.rule{
+  color: #CDA969;
+
+}
+
+.lower{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.COM{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
+  background-color: #dbdbdb;
+  padding: 88px;
+  
+}
+
+.USER{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
+  background-color: #dbdbdb;
+  padding: 88px;
+  width: 300px;     
+  height: 300px;     
+  box-sizing: border-box;
+  
+}
+
+
+.gameName{
+  display: flex;
+  justify-content: center;
+}
+
+.gameName div{
+  margin: 0px 176px;
+}
+
+
+.userWithButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.userSelect button{
+  height: 32px;
+  width: 101px;
+  margin: 6.5px;
+  border: 1px solid #CDA969;
+  border-radius: 4px;
+  background-color: #444242;
+  color: white;
+}
+
+.userSelect button:hover{
+  background-color: #CDA969;
+  color: black;
+}
+
+
+.try-again{
+  background-color: #ED4545;
+  height: 32px;
+  width: 147px;
+  margin: 30px;
+  border: 1px;
+  border-radius: 4px;
+
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+.win {
+  border: 4px solid #CDA969;
+  
+}
+.start-message{
+  color: black;
+  font-size: 20px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+
